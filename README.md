@@ -22,6 +22,7 @@ usage:
     */
     let sdbPath_1 = await tools.getToolPath('sdb', {proxy: 'http://192.168.0.1:8080'});
     let sdbPath_2 = await tools.getToolPath('sdb');
+    let sdbPath_3 = await tools.getSdbPath();
     let encryPath = await tools.getEncryptorPath();
     let tizenCertPath = await tools.getTizenCertPath();    //download and return tizen certificate file path.
     let samsungCertPath = await tools.getSamsungCertPath();    //download and return samsung certificate file path.
